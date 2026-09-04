@@ -60,7 +60,7 @@ dll         := dll
 exe         := .exe
 soflag      := -shared -Wl,--subsystem,windows
 fpicflags   := -fPIC -DLC_SHARED
-sock_lib    := -lws2_32
+sock_lib    := -lws2_32 -lpsapi
 dynlink_lib := -lpcre2-32
 NO_STL      := 1
 else
